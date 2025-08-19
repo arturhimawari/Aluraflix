@@ -1,5 +1,16 @@
 body {
-    color: white;
+    color: purple;
     background: rgb(35, 150, 35);
     margin: 0px;
 }
+  section {
+      background rgb(168,392,300);
+      padding-bottom: 80px;
+      padding-top; 90px
+      display: flex;
+    
+section {
+    justify-content: center;
+}
+      chamada-texto{
+          margin-ri
