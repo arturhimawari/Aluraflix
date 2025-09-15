@@ -5,14 +5,14 @@ body {
     font-family: "Chakra Petch", sans-serif;
 }
 
-header {
+.chamada {
     border-bottom: solid 10px rgb(0, 0, 0);
     padding: 20px;
     font-size: 32px;
     color: rgb(62, 213, 32);
 }
 
-section {
+.chamada {
     background: rgb(78, 235, 99);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -34,4 +34,15 @@ p{
 
 img{
     height: 20px;
+}
+
+.categoria-videos {
+    display:flex;
+    overflow-x: auto;
+    gap:10px;
+}
+
+section{
+    padding-left: 20px;
+    padding-right:20px;
 }
