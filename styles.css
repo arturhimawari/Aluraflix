@@ -5,19 +5,35 @@ body {
     font-family: "Chakra Petch", sans-serif;
 }
 
-.chamada {
-    border-bottom: solid 10px rgb(0, 0, 0);
+header {
+    border-bottom: solid 10px rgb(255, 255, 255);
     padding: 20px;
     font-size: 32px;
-    color: rgb(202, 13, 32);
+    color: rgb(0, 255, 234);
 }
 
 .chamada {
-    background: rgb(200, 15, 99);
+    background: rgb(0, 216, 187);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 20px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
 }
 
 .chamada-texto{
@@ -52,4 +68,8 @@ section{
 .categoria-videosk img:hover{
     opacity:1.0;
     border: 5px solid rgb(250, 14, 14);
+}
+
+.categoria h2{
+    color:rgb(252,252,252)
 }
